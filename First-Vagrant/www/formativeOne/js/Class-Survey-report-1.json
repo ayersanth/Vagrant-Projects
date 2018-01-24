@@ -1,0 +1,15 @@
+
+[{ "Age": 42, "Gender": "Other", "Star_Sign": "Taurus", "Sushi": 1, "Campus_Rating": 0, "Political_Leaning": "Left" },
+{ "Age": 29, "Gender": "Female", "Star_Sign": "Gemini", "Sushi": 1, "Campus_Rating": 4, "Political_Leaning": "Left" },
+{ "Age": 22, "Gender": "Male", "Star_Sign": "Scorpio", "Sushi": 1, "Campus_Rating": 4, "Political_Leaning": "Right" },
+{ "Age": 24, "Gender": "Female", "Star_Sign": "Cancer", "Sushi": 0, "Campus_Rating": 5, "Political_Leaning": "Right" },
+{ "Age": 18, "Gender": "Male", "Star_Sign": "Taurus", "Sushi": 1, "Campus_Rating": 3, "Political_Leaning": "Left" },
+{ "Age": 23, "Gender": "Female", "Star_Sign": "Scorpio", "Sushi": 1, "Campus_Rating": 4, "Political_Leaning": "Left" },
+{ "Age": 23, "Gender": "Male", "Star_Sign": "Gemini", "Sushi": 1, "Campus_Rating": 3, "Political_Leaning": "Left" },
+{ "Age": 30, "Gender": "Female", "Star_Sign": "Libra", "Sushi": 1, "Campus_Rating": 5, "Political_Leaning": "Left" }, 
+{ "Age": 22, "Gender": "Male", "Star_Sign": "Sagittarius", "Sushi": 1, "Campus_Rating": 5, "Political_Leaning": "Other" },
+{ "Age": 20, "Gender": "Male", "Star_Sign": "Capricorn", "Sushi": 1, "Campus_Rating": 5, "Political_Leaning": "Left" },
+{ "Age": 31, "Gender": "Male", "Star_Sign": "Scorpio", "Sushi": 1, "Campus_Rating": 3, "Political_Leaning": "Other" },
+{ "Age": 23, "Gender": "Male", "Star_Sign": "Aries", "Sushi": 1, "Campus_Rating": 2, "Political_Leaning": "Right" },
+]
+

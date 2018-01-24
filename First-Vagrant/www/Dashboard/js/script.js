@@ -98,19 +98,20 @@ function drawDashboard(){
             dashboard.bind([incomeRangeSlider, genderPicker], [scatterChart]);
             dashboard.draw(data);
             drawPie(dataFromJSON);
+    
 
             google.visualization.events.addListener(incomeRangeSlider, 'statechange', function(){
                 var range = incomeRangeSlider.getState();
                 var view = new google.visualization.DataView(data);
                 view.setRows(data.getFilteredRows([
                     {
-                        column: 2,
+                        column: 2, /*this column is income*/
                         minValue: range.lowValue,
                         maxValue: range.highValue
                     }    
                 ]));
 
-                var filteredRows = view.ol;
+                var filteredRows = view.ol; /*ol is an array created from the view variable, which we found from console.log'ing view*/
                 var newData = [];
                 for (var i = 0; i < filteredRows.length; i++) {
                     newData.push(dataFromJSON[filteredRows[i]]);
@@ -120,11 +121,13 @@ function drawDashboard(){
 
 
         },
+
         error:function(errorFromJSON){
             console.log("Something has gone wrong");
             console.log(errorFromJson);
             alert("error!!!!!!!!!");
         }
+        
     })
 
 };
